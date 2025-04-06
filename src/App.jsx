@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className={darkMode ? 'dark' : ''}>
-      <Router>
+      <Router basename="/mi-portfolio">
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
           <Routes>
