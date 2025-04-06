@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs, FaGithub, FaHtml5, FaCss3Alt, FaJsSquare } from "react-icons/fa";
 import ExperienceTimeline from '../components/ExperienceTimeline';
 import EducationTimeline from '../components/EducationTimeline';
+import avatar from '../assets/avatarweb.png';
 
 function Home() {
 
@@ -16,7 +17,7 @@ function Home() {
 
       <div className="flex flex-col md:flex-row items-center gap-8">
         <img
-          src="/src/assets/avatarweb.png"
+          src={avatar}
           alt="Avatar"
           className="w-40 h-40 rounded-full shadow-md object-cover"
         />
