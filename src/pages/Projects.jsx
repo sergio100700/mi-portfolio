@@ -11,8 +11,8 @@ const projects = [
   {
     title: 'Clon de Spotify',
     description: 'Interfaz inspirada en Spotify usando React + Tailwind.',
-    code: 'https://github.com/tuusuario/netflix-clone',
-    demo: 'https://netflix-clone-demo.vercel.app',
+    code: 'https://github.com/sergio100700/sergiotify',
+    demo: 'https://sergio100700.github.io/sergiotify/',
     image: 'https://via.placeholder.com/600x400?text=Proyecto+2',
   },
   {

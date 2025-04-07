@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaReact, FaNodeJs, FaGithub, FaHtml5, FaCss3Alt, FaJsSquare } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaGithub, FaHtml5, FaCss3Alt, FaJsSquare, FaNode } from "react-icons/fa";
 import ExperienceTimeline from '../components/ExperienceTimeline';
 import EducationTimeline from '../components/EducationTimeline';
 import avatar from '../assets/avatarweb.png';
@@ -23,11 +23,11 @@ function Home() {
         />
         <div>
           <p className="text-lg leading-relaxed">
-            ¡Hola! Soy <strong>Sergio López</strong>, desarrollador front-end con pasión por crear experiencias web atractivas, dinámicas y accesibles.
-            Me encanta trabajar con React, animaciones sutiles y siempre estoy explorando nuevas tecnologías.
+            ¡Hola! Soy <strong>Sergio López</strong>, desarrollador full-stack con experiencia en back-end (Node.js) y front-end (React con TypeScript). Comencé mi carrera especializándome en el desarrollo back-end y, con el tiempo, me he centrado en el front-end con React. He trabajado en proyectos que abarcan desde la construcción de bases de datos hasta el diseño y desarrollo de interfaces interactivas.
+            Destaco por mi capacidad para asumir proyectos de principio a fin, combinando habilidades técnicas con un enfoque metódico en la resolución de problemas.
           </p>
           <p className="mt-4">
-            Actualmente, estoy enfocado en mejorar mis habilidades en UI/UX y hacer que cada proyecto tenga personalidad propia.
+            Mi objetivo es seguir creciendo como desarrollador y aportar soluciones innovadoras que generen valor en equipo.
           </p>
         </div>
       </div>
@@ -36,19 +36,19 @@ function Home() {
         <h3 className="text-2xl font-semibold mb-4">Habilidades</h3>
         <div className="grid grid-cols-3 sm:grid-cols-6 gap-4 text-4xl text-blue-500">
           <div className="flex items-center justify-center">
-            <FaHtml5 title="HTML5" />
+            <FaReact title="React" />
           </div>
           <div className="flex items-center justify-center">
-            <FaCss3Alt title="CSS3" />
+            <FaNode title="Nodejs" />
           </div>
           <div className="flex items-center justify-center">
             <FaJsSquare title="JavaScript" />
           </div>
           <div className="flex items-center justify-center">
-            <FaReact title="React" />
+            <FaHtml5 title="HTML5" />
           </div>
           <div className="flex items-center justify-center">
-            <FaNodeJs title="Node.js" />
+            <FaCss3Alt title="CSS3" />
           </div>
           <div className="flex items-center justify-center">
             <FaGithub title="GitHub" />
